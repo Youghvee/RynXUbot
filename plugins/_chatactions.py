@@ -39,7 +39,7 @@ async def Function(event):
 
 async def DummyHandler(ult):
     # clean chat actions
-    key = udB.get_key("CLEANCHAT") or []
+    key = udB.get_key("♻️ CLEANCHAT") or []
     if ult.chat_id in key:
         try:
             await ult.delete()
@@ -55,7 +55,7 @@ async def DummyHandler(ult):
             await ult.respond(file=sticker)
     # force subscribe
     if (
-        udB.get_key("FORCESUB")
+        udB.get_key("⚠️ FORCESUB")
         and ((ult.user_joined or ult.user_added))
         and get_forcesetting(ult.chat_id)
     ):
