@@ -23,13 +23,13 @@ async def dowj(e):
         return await e.eor("Reply to a message...")
     try:
         await replied.delete()
-        if e.pattern_match.group(1).strip() == "kick":
+        if e.pattern_match.group(1).strip() == "kick⏳":
             await e.client.kick_participant(e.chat_id, user)
-            te = "Kicked"
+            te = "Kicked ✅"
         else:
             await e.client.edit_permissions(e.chat_id, user, view_messages=False)
-            te = "Banned"
-        await e.eor(f"{te} Successfully!")
+            te = "Banned⏳"
+        await e.eor(f"{te} Successfully ✅")
     except Exception as E:
         await e.eor(str(E))
 
