@@ -49,7 +49,7 @@ async def _help(ult):
                 output += "\n© @TatsuyaMusicStream"
                 await ult.eor(output)
             elif HELP.get("Addons⚙️") and plug in HELP["Addons"]:
-                output = f"**Plugin** - `{plug}`\n"
+                output = f"**🧰Plugin** - `{plug}`\n"
                 for i in HELP["Addons"][plug]:
                     output += i
                 output += "\n© @TatsuyaMusicStream"
@@ -58,7 +58,7 @@ async def _help(ult):
                 output = f"**Plugin** - `{plug}`\n"
                 for i in HELP["VCBot"][plug]:
                     output += i
-                output += "\n© @TeamUltroid"
+                output += "\n© @TatsuyaMusicStream"
                 await ult.eor(output)
             else:
                 try:
@@ -96,7 +96,7 @@ async def _help(ult):
                         for i in HELP["Official"][file]:
                             output += i
                     elif HELP.get("Addons⚙️") and file in HELP["Addons"]:
-                        for i in HELP["Addons"][file]:
+                        for i in HELP["⚙️Addons"][file]:
                             output += i
                     elif HELP.get("🧬VCBot") and file in HELP["VCBot"]:
                         for i in HELP["VCBot"][file]:
