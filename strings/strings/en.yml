@@ -175,7 +175,7 @@ bot_5: "• `Restarting...`"
 alive_1: "**The Ryn Userbot...**\n\n**{}**\n\n🤴 **Owner** - `{}`\n📌 **RynUbot** - `{}`\n✵ **Py-Ultroid** - `{}`\n⏳ **UpTime** - `{}`\n💳 **Python** - `{}`\n⚜️ **Telethon** - `{}`\n🔎
 **Branch** - `{}`"
 log: "**Heroku** RynUbot Logs.\nPasted [here]({}) too!"
-ping: "**🏓 Pong !!** `{}ms`\n**⏳ Uptime** - `{}`"
+ping: "**🏓 Sepong !!** `{}ms`\n**⏳ Uptime** - `{}`\n**🤴 Owner** `{}`"
 usage: "**⚙️ Dyno Usage ⚙️**:\n\n-> **Dyno usage for** `{}`:\n  •  **{}h**  **{}m |** `[{}%]`\n-> **Dyno hours quota remaining this month**:\n  •  **{}h**  **{}m |** `[{}%]`\n\n**Total Disk Space**: `{}`\n**Used**: `{}`\n**Free**: `{}`\n\n**📊 Data Usage 📊**\n**Upload**: `{}`\n**Down**: `{}`\n\n**CPU**: `{}%`\n**RAM**: `{}%`\n**DISK**: `{}%`"
 usage_simple: "**Total Disk Space**: `{}`\n**Used**: `{}`\n**Free**: `{}`\n\n**📊 Data Usage 📊**\n**Upload**: `{}`\n**Down**: `{}`\n\n**CPU**: `{}%`\n**RAM**: `{}%`\n**DISK**: `{}%`"
 shutdown: "GoodBye 👋🏻 {}.\n`Shutting down...`"
