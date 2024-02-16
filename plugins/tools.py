@@ -5,7 +5,7 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
 """
-✘ Commands Available -
+✖️ Commands Available -
 
 • `{i}circle`
     Reply to a audio song or gif to get video note.
@@ -149,11 +149,11 @@ async def _(ult):
             filter=ChannelParticipantsBots,
         ):
             if isinstance(x.participant, ChannelParticipantAdmin):
-                mentions += f"\n⚜️ {inline_mention(x)} `{x.id}`"
+                mentions += f"\n▢ {inline_mention(x)} `{x.id}`"
             else:
-                mentions += f"\n• {inline_mention(x)} `{x.id}`"
+                mentions += f"\n⎋ {inline_mention(x)} `{x.id}`"
     except Exception as e:
-        mentions += f" {str(e)}" + "\n"
+        mentions += f" {str(e)}" ☥ "\n"
     await ult.eor(mentions)
 
 
