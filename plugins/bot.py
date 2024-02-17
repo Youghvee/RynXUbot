@@ -77,11 +77,11 @@ buttons = [
 
 # Will move to strings
 alive_txt = """
-The Ryn Userbot
+▢ The Ryn Userbot
 
-  ◍ Version - {}
-  ◍ Py-Ultroid - {}
-  ◍ Telethon - {}
+  ➻ Version - {}
+  ➻ Py-Ultroid - {}
+  ➻ Telethon - {}
 """
 
 in_alive = "{}\n\n❓ <b>Ultroid Version -><b> <code>{}</code>\n🔐 <b>PyUltroid -></b> <code>{}</code>\n🧷 <b>Python -></b> <code>{}</code>\n⏳ <b>Uptime -></b> <code>{}</code>\n💳 <b>Branch -></b>[ {} ]\n\n• <b>Join @TatsuyaMusicStream</b>"
