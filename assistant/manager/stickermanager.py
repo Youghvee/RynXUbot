@@ -63,7 +63,7 @@ async def kang_cmd(ult):
     else:
         return await ult.eor("`Reply to sticker or text to add it in your pack...`")
     if not emoji:
-        emoji = "🏵"
+        emoji = "📂"
     if dl:
         upl = await ult.client.upload_file(dl)
         file = get_input_document(
