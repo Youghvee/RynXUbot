@@ -50,8 +50,8 @@ upage = 0
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="https://github.com/TeamUltroid/Ultroid"),
-        Button.url("• Support •", url="t.me/TatsuyaMusicStream"),
+        Button.url("📝 Repo", url="https://github.com/TeamUltroid/Ultroid"),
+        Button.url("Support 📚", url="t.me/TatsuyaMusicStream"),
     ],
 ]
 
@@ -413,7 +413,7 @@ async def ibuild(e):
                     cont = InputWebDocument(pic, 0, mime_type, [])
                 results = [
                     await builder.article(
-                        title="Ultroid Op",
+                        title="RynUbot Op",
                         type=_type,
                         text=txt,
                         description="@TatsuyaSupportStream",
@@ -428,7 +428,7 @@ async def ibuild(e):
         except Exception as er:
             LOGS.exception(er)
     result = [
-        await builder.article("Ultroid Op", text=txt, link_preview=False, buttons=btn)
+        await builder.article("RynUbot Op", text=txt, link_preview=False, buttons=btn)
     ]
     await e.answer(result)
 
