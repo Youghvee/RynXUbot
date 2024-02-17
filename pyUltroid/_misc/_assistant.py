@@ -23,8 +23,8 @@ OWNER = ultroid_bot.full_name
 MSG = f"""
 **Ryn - UserBot**
 ➖➖➖➖➖➖➖➖➖➖
-**Owner**: [{OWNER}](tg://user?id={ultroid_bot.uid})
-**Support**: @Cari_Teman_Virtual_Online_Id
+**🤴 Owner**: [{OWNER}](tg://user?id={ultroid_bot.uid})
+**Support 📚**: @Cari_Teman_Virtual_Online_Id
 ➖➖➖➖➖➖➖➖➖➖
 """
 
@@ -98,12 +98,12 @@ def in_pattern(pattern=None, owner=False, **kwargs):
             if owner and event.sender_id not in owner_and_sudos():
                 res = [
                     await event.builder.article(
-                        title="Ultroid Userbot",
+                        title="Ryn Userbot",
                         url="https://t.me/TeamUltroid",
-                        description="(c) TeamUltroid",
+                        description="(c) RynUbot",
                         text=MSG,
                         thumb=InputWebDocument(
-                            "https://graph.org/file/dde85d441fa051a0d7d1d.jpg",
+                            "https://telegra.ph/file/db4892a4ffc5a54dae84e.jpg",
                             0,
                             "image/jpeg",
                             [],
