@@ -14,10 +14,10 @@ START = """
 ✘  /help : Get This Message.
 ✘  /repo : Get Bot's Repo..
 
-🧑‍💻 Join **@TeamUltroid**
+🧑‍💻 Join **@Thvrxv**
 """
 
-ADMINTOOLS = """✘ **AdminTools** ✘
+ADMINTOOLS = """⚙️ **AdminTools** ⚙️
 
 • /pin : Pins the Replied Message
 • /pinned : Get Pinned message in chat.
@@ -39,7 +39,7 @@ ADMINTOOLS = """✘ **AdminTools** ✘
 • /delgpic : remove current chat Photo."""
 
 UTILITIES = """
-✘ ** Utilities ** ✘
+👤 ** Utilities ** 👤
 
 • /info (reply/username/id) : get detailed info of user.
 • /id : get chat/user id.
@@ -54,7 +54,7 @@ UTILITIES = """
 """
 
 LOCKS = """
-✘ ** Locks ** ✘
+🔐 ** Locks ** 🔐
 
 • /lock (query) : lock particular content in chat.
 • /unlock (query) : Unlock some content.
@@ -72,12 +72,12 @@ LOCKS = """
 """
 
 MISC = """
-✘  **Misc**  ✘
+🔎  **Misc**  🔎
 
 • /joke : Get Random Jokes.
 • /decide : Decide Something..
 
-**✘ Stickertools ✘**
+**💳 Stickertools 💳**
 • /kang : add sticker to your pack.
 • /listpack : get all of yours pack..
 """
