@@ -70,8 +70,8 @@ def ULTPIC():
 
 buttons = [
     [
-        Button.url(get_string("bot_3"), "https://github.com/TeamUltroid/Ultroid"),
-        Button.url(get_string("bot_4"), "t.me/UltroidSupportChat"),
+        Button.url(get_string("bot_3"), "https://t.me/Cari_Teman_Virtual_Online_Id"),
+        Button.url(get_string("bot_4"), "t.me/TatsuyaMusicAss_Bot"),
     ]
 ]
 
@@ -79,12 +79,12 @@ buttons = [
 alive_txt = """
 ▢ The Ryn Userbot
 
-  ➻ Version - {}
-  ➻ Py-Ultroid - {}
-  ➻ Telethon - {}
+  ▢ Version - {}
+  ▢ Py-Ultroid - {}
+  ▢ Telethon - {}
 """
 
-in_alive = "{}\n\n❓ <b>Ultroid Version -><b> <code>{}</code>\n🔐 <b>PyUltroid -></b> <code>{}</code>\n🧷 <b>Python -></b> <code>{}</code>\n⏳ <b>Uptime -></b> <code>{}</code>\n💳 <b>Branch -></b>[ {} ]\n\n• <b>Join @TatsuyaMusicStream</b>"
+in_alive = "{}\n\n▢ <b>RynUBot Version -><b> <code>{}</code>\n▢ <b>PyUBot -></b> <code>{}</code>\n▢ <b>Python -></b> <code>{}</code>\n▢ <b>Uptime -></b> <code>{}</code>\n▢ <b>Branch -></b>[ {} ]\n\n• <b>Join @TatsuyaMusicStream</b>"
 
 
 @callback("alive")
@@ -128,9 +128,7 @@ async def lol(ult):
             uptime,
             kk,
         )
-
-        if _e := udB.get_key("ALIVE_EMOJI"):
-            als = als.replace("👋🏻", _e)
+        
     else:
         parse = "md"
         als = (get_string("alive_1")).format(
@@ -143,9 +141,6 @@ async def lol(ult):
             __version__,
             kk,
         )
-
-        if a := udB.get_key("ALIVE_EMOJI"):
-            als = als.replace("⚜️", a)
     if pic:
         try:
             await ult.reply(
@@ -270,10 +265,7 @@ async def inline_alive(ult):
     als = in_alive.format(
         header, f"{ultroid_version} [{HOSTED_ON}]", UltVer, pyver(), uptime, kk
     )
-
-    if _e := udB.get_key("ALIVE_EMOJI"):
-        als = als.replace("⚜️", _e)
-    builder = ult.builder
+    
     if pic:
         try:
             if ".jpg" in pic:
