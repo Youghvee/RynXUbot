@@ -50,7 +50,7 @@ upage = 0
 
 SUP_BUTTONS = [
     [
-        Button.url("📝 Repo", url="https://github.com/TeamUltroid/Ultroid"),
+        Button.url("🤴 Owner", url="https://t.me/Usern4meDoestExist404"),
         Button.url("Support 📚", url="t.me/TatsuyaMusicStream"),
     ],
 ]
@@ -82,7 +82,7 @@ async def inline_alive(o):
         RES,
         private=True,
         cache_time=300,
-        switch_pm="👥 ULTROID PORTAL",
+        switch_pm="👥 RYNUBOT PORTAL",
         switch_pm_param="start",
     )
 
@@ -340,12 +340,12 @@ def page_num(index, key):
         new_.append(
             [
                 Button.inline(
-                    "◁ Pʀᴇᴠɪᴏᴜs",
+                    "◁",
                     data=f"uh_{key}_{index-1}",
                 ),
                 Button.inline("◁ Bᴀᴄᴋ ▷", data="open"),
                 Button.inline(
-                    "Nᴇxᴛ ▷",
+                    "▷",
                     data=f"uh_{key}_{index+1}",
                 ),
             ]
@@ -400,7 +400,7 @@ async def ibuild(e):
                             _pic,
                             title="RynUbot Op",
                             text=txt,
-                            description="@TatsuyaSupportStream",
+                            description="@Usern4meDoestExist404",
                             buttons=btn,
                             link_preview=False,
                         )
