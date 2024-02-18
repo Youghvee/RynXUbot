@@ -38,11 +38,11 @@ from ._help import _main_help_menu
 
 helps = get_string("inline_1")
 
-add_ons = udB.get_key("🧰 ADDONS")
+add_ons = udB.get_key("ADDONS")
 
 zhelps = get_string("inline_3") if add_ons is False else get_string("inline_2")
-PLUGINS = HELP.get("📢 Official", [])
-ADDONS = HELP.get("🧰 Addons", [])
+PLUGINS = HELP.get("Official", [])
+ADDONS = HELP.get("Addons", [])
 upage = 0
 # ============================================#
 
@@ -94,8 +94,8 @@ async def inline_handler(event):
         z.extend(x)
     text = get_string("inline_4").format(
         OWNER_NAME,
-        len(HELP.get("📢 Official", [])),
-        len(HELP.get("🧰 Addons", [])),
+        len(HELP.get("Official", [])),
+        len(HELP.get("Addons", [])),
         len(z),
     )
     if inline_pic():
@@ -138,8 +138,8 @@ async def setting(event):
     await event.edit(
         get_string("inline_4").format(
             OWNER_NAME,
-            len(HELP.get("📢 Official", [])),
-            len(HELP.get("🧰 Addons", [])),
+            len(HELP.get("Official", [])),
+            len(HELP.get("Addons", [])),
             len(z),
         ),
         file=inline_pic(),
@@ -158,7 +158,7 @@ async def setting(event):
     )
 
 
-_strings = {"Official": helps, "🧰 Addons": zhelps, "🧬 VCBot": get_string("inline_6")}
+_strings = {"Official": helps, "Addons": zhelps, "VCBot": get_string("inline_6")}
 
 
 @callback(re.compile("uh_(.*)"), owner=True)
